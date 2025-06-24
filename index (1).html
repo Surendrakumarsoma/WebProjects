@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>YouTube Replica</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="https://www.youtube.com/s/desktop/6d6d6d6d/img/favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <button class="menu-btn">&#9776;</button>
+      <img src="https://www.youtube.com/s/desktop/6d6d6d6d/img/favicon_144x144.png" class="logo" alt="YouTube Logo">
+      <span class="logo-text">YouTube</span>
+    </div>
+    <div class="header-center">
+      <input type="text" class="search-bar" placeholder="Search">
+      <button class="search-btn">&#128269;</button>
+    </div>
+    <div class="header-right">
+      <button class="icon-btn">&#128276;</button>
+      <button class="icon-btn">&#128100;</button>
+    </div>
+  </header>
+  <div class="container">
+    <aside>
+      <nav>
+        <ul>
+          <li class="active"><span>&#8962;</span> Home</li>
+          <li><span>&#128214;</span> Subscriptions</li>
+          <li><span>&#128249;</span> Library</li>
+          <li><span>&#128340;</span> History</li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <div class="videos-grid">
+        <!-- Repeat this video card for multiple videos -->
+        <div class="video-card">
+          <img src="https://i.ytimg.com/vi/ysz5S6PUM-U/hqdefault.jpg" alt="Video Thumbnail" class="thumbnail">
+          <div class="video-info">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" class="channel-icon" alt="Channel">
+            <div>
+              <h3 class="video-title">Relaxing Nature Video</h3>
+              <p class="channel-name">Nature Channel</p>
+              <p class="video-stats">1.2M views • 3 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <img src="https://i.ytimg.com/vi/3GwjfUFyY6M/hqdefault.jpg" alt="Video Thumbnail" class="thumbnail">
+          <div class="video-info">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" class="channel-icon" alt="Channel">
+            <div>
+              <h3 class="video-title">Learn HTML in 10 Minutes</h3>
+              <p class="channel-name">Code Academy</p>
+              <p class="video-stats">850K views • 1 month ago</p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more video cards as needed -->
+      </div>
+    </main>
+  </div>
+</body>
+</html>
